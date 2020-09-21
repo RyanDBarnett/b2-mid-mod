@@ -1,0 +1,12 @@
+<ul>
+  <% @flights.each do |flight| %>
+    <li><%= flight.number %></li>
+      <% unless flight.passengers.empty? %>
+        <ul class="flight-<%= flight.number %>-passengers">
+          <% flight.passengers.each do |passenger| %>
+            <li><%= passenger.name %></li>
+          <% end %>
+        </ul>
+      <% end %>
+  <% end %>
+</ul>
