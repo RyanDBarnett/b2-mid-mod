@@ -1,4 +1,4 @@
-class PassengerFlightsController <ApplicationController
+class PassengerFlightsController < ApplicationController
   def destroy
     PassengerFlight.destroy(params[:id])
 

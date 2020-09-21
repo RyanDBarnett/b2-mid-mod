@@ -53,40 +53,10 @@ Field Trip is an app that allows a user to see airlines, flights, and passengers
 
 3. Complete the following user stories:
 
-
-```
-User Story 1, Flights Index Page
-
-As a visitor
-When I visit the flights index page ('/flights')
-I see a list of all flight numbers
-And under each flight number I see the names of all that flights passengers
-```
-
-```
-User Story 2, Airlines Show Page
-
-As a visitor
-When I visit an airlines show page ('/airlines/:id')
-I see a unique list of passengers that have flights from that airline
-```
-
-```
-User Story 3, Remove a Passenger from a Flight
-
-As a visitor
-When I visit the flights index page
-Next to each passengers name
-I see a link to remove that passenger from that flight
-When I click on that link
-I'm returned to the flights index page
-And I no longer see that passenger listed under that flight
-```
-
 ```
 User Story 4, Passengers Index Page
 
 As a visitor
-When I visit a passengers index page ('/passengers/:id')
+When I visit a passengers index page ('/passengers')
 I see names of all passengers
 And next to the passengers name, I see the number of flights that the passenger has

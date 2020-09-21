@@ -1,4 +1,4 @@
-class AirlinesController <ApplicationController
+class AirlinesController < ApplicationController
   def show
     @airline = Airline.find(params[:id])
   end

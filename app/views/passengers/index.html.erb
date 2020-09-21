@@ -1,0 +1,5 @@
+<ul>
+  <% @passengers.each do |passenger| %>
+    <li><%= passenger.name %> <%= passenger.flights.count %></li>
+  <% end %>
+</ul>
