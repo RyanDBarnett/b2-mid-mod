@@ -4,7 +4,7 @@
       <% unless flight.passengers.empty? %>
         <ul class="flight-<%= flight.number %>-passengers">
           <% flight.passengers.each do |passenger| %>
-            <li><%= passenger.name %></li>
+            <li><%= passenger.name %><%= link_to 'Cancel Flight', "/passenger_flights/#{flight.passenger_flights.where(passenger_id: passenger.id).first.id}", method: "delete" %></li>
           <% end %>
         </ul>
       <% end %>
