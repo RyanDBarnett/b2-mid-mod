@@ -1,5 +1,5 @@
 <ul>
   <% @passengers.each do |passenger| %>
-    <li><%= passenger.name %> <%= passenger.flights.count %></li>
+    <li><%= passenger.name %> <%= passenger.total_flights %></li>
   <% end %>
 </ul>

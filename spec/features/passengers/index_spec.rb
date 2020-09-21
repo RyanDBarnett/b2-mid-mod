@@ -1,8 +1,5 @@
 require 'rails_helper'
 
-# And next to the passengers name, I see the number of flights that the passenger has
-
-
 describe 'As a visitor' do
   describe 'When I visit a passengers index page' do
     before :each do
